@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/styles/index.scss';
+import './assets/styles/tailwind-base.scss';
+import './assets/styles/tailwind-comp.scss';
+import './assets/styles/tailwind-util.scss';
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import { Home, Page2 } from './pages';

@@ -1,6 +1,6 @@
-import React from 'react'
-import NavbarHeader from '../../components/Navbar'
-import logo from '../../assets/images/logo.svg'
+import React from 'react';
+import NavbarHeader from '../../components/Navbar';
+import logo from '../../assets/images/logo.svg';
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
         <p>Env variable: {process.env.REACT_APP_ENV_TEST}</p>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

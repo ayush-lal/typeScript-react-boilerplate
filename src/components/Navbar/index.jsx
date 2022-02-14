@@ -1,6 +1,6 @@
-import React from 'react'
-import { Navbar, Nav, Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavbarHeader = () => {
   return (
@@ -24,7 +24,7 @@ const NavbarHeader = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  )
-}
+  );
+};
 
-export default NavbarHeader
+export default NavbarHeader;

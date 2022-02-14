@@ -1,6 +1,6 @@
-import React from 'react'
-import NavbarHeader from '../../components/Navbar'
-import logo from '../../assets/images/logo.svg'
+import React from 'react';
+import NavbarHeader from '../../components/Navbar';
+import logo from '../../assets/images/logo.svg';
 
 const Page2 = () => {
   return (
@@ -15,7 +15,7 @@ const Page2 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Page2
+export default Page2;

@@ -7,6 +7,7 @@ React with TypeScript Boilerplate that includes the following libraries:
 - Axios
 - React Icons
 - React Router
+- Jest
 
 ### Installation
 

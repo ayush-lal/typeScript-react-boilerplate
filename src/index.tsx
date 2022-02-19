@@ -1,12 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./assets/styles/index.scss";
-import "./assets/styles/tailwind-base.scss";
-import "./assets/styles/tailwind-comp.scss";
-import "./assets/styles/tailwind-util.scss";
-import reportWebVitals from "./reportWebVitals";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
-import { Home, Page2 } from "./pages";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './assets/styles/index.scss';
+import './assets/styles/tailwind-base.scss';
+import './assets/styles/tailwind-comp.scss';
+import './assets/styles/tailwind-util.scss';
+import reportWebVitals from './reportWebVitals';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Home, Page2 } from './pages';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,7 +15,7 @@ ReactDOM.render(
       <Route path="/page2" element={<Page2 />} />
     </Routes>
   </BrowserRouter>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

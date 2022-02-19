@@ -5,16 +5,16 @@ import './assets/styles/tailwind-base.scss';
 import './assets/styles/tailwind-comp.scss';
 import './assets/styles/tailwind-util.scss';
 import reportWebVitals from './reportWebVitals';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, BrowserRouter, Routes, HashRouter } from 'react-router-dom';
 import { Home, Page2 } from './pages';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/page2" element={<Page2 />} />
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 

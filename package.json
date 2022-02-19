@@ -1,7 +1,8 @@
 {
   "name": "typescript-react-boilerplate",
-  "homepage": "https://ayush-lal.github.io/typeScript-react-boilerplate/",
+  "homepage": ".",
   "version": "1.0.0",
+  "proxy": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
